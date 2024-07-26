@@ -1,0 +1,33 @@
+.skill_desc{
+    margin:50px;
+}
+h1.skill_desc {
+    font-size: 40px;
+    margin-bottom:150px ;
+    color: white;
+    text-align: center;
+}
+h1.skill_desc span{
+    color: aqua;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 30px;
+	
+}
+
+.skills-grid div {
+    background-color: aqua; 
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+ 
+}
+.skills-grid div:hover {
+    transform: translateY(-5px); 
+    background-color: rgb(173, 221, 230); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}

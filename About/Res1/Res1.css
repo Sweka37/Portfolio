@@ -1,0 +1,78 @@
+.contact_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+    gap: 10px;
+}
+.contact_desc {
+    color: white;
+    margin: 20px 0px;
+}
+.contact_desc h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.contact_desc h1 span {
+    color: aqua;
+}
+.contact_desc .font i {
+    margin: 8px;
+    margin-top: 20px;
+    border: 2px solid aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact_desc .font i:hover {
+    background-color: aqua;
+    box-shadow: 0px 0px 20px aqua;
+    transform: translateY(-10px);
+}
+.contact_desc p {
+    margin-top: 20px;
+    font-size: large;
+}
+.contact_desc p i {
+    color: aqua;
+    margin: 0px 10px;
+}
+.form input, textarea {
+    width: 550px;
+    margin: 10px;
+    padding: 15px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.form .form_btn {
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px aqua;
+    margin-left: 200px;
+    border: none;
+    cursor: pointer;
+}
+.form .form_btn:hover {
+    background: transparent;
+    border: 2px solid aqua;
+    color: white;
+}
+.document_link {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    border: 2px solid aqua;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.document_link:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: 0px 0px 20px aqua;
+    transform: translateY(-10px);
+}
